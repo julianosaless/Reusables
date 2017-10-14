@@ -304,4 +304,8 @@ __pycache__/
 # OpenCover UI analysis results
 OpenCover/
 
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
