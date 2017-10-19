@@ -1,5 +1,6 @@
 language: csharp
-solution: Reusables.sln
+mono: latest
+dotnet: 2.0.0
 install:
   - dotnet restore
   - chmod +x ./src/packages/xunit.runners.1.9.2/tools/xunit.console.clr4.exe
